@@ -42,7 +42,7 @@
     {"tag":"手动选择","type":"selector","outbounds":[]},
     {"tag":"台湾手动1","type":"selector","outbounds":[]},
     {"tag":"台湾手动2","type":"selector","outbounds":[]},
-    {"tag":"台湾自动1","type":"urltest","outbounds":[],
+    {"tag":"台湾自动1","type":"urltest","outbounds":["SG-台湾2-AnyTLS","SG-台湾3-AnyTLS","SG-台湾6-AnyTLS","JP-台湾2-AnyTLS","JP-台湾3-AnyTLS","JP-台湾6-AnyTLS"],
     "url":"https://www.gstatic.com/generate_204","interval":"2m","tolerance":100},
     {"tag":"台湾自动2","type":"urltest","outbounds":[],
     "url":"https://www.gstatic.com/generate_204","interval":"2m","tolerance":100},
